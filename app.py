@@ -49,6 +49,8 @@ if st.button("Predict Probabilities"):
         wickets = 10 - wickets
         crr = score / overs if overs > 0 else 0
 
+
+
         rrr = (runs_left * 6) / balls_left
         input_df = pd.DataFrame({'batting_team': [batting_team],
                                  'bowling_team': [bowling_team],
